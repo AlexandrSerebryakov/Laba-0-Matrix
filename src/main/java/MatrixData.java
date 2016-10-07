@@ -16,6 +16,7 @@ public class MatrixData {
         tab=new int[m][n];
         m=3;
         n=3;
+
     }
 
 
