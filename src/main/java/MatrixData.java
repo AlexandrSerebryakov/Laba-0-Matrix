@@ -34,6 +34,9 @@ public class MatrixData{
     public int getTab(int i, int j) {
         return tab[i][j];
     }
+    public int getData (int i, int j){
+        return tab[i][j];
+    }
 }
 
 
