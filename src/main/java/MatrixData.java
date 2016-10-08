@@ -10,7 +10,29 @@ public class MatrixData{
     public MatrixData(int row, int col) {
         this.row = row;
         this.col = col;
-        this.tab = new int[row][col];
+        fillRandom(row, col);
+
+    }
+
+    public void fillRandom(int m, int n){
+        tab = new int[m][n];
+        for (int i = 0; i < m; i++){
+           for (int j = 0; j < n; j++){
+               tab[i][j]=(int) Math.random();
+           }
+        }
+    }
+
+    public int getRow() {
+        return tab.length;
+    }
+
+    public int getCol() {
+        return tab[0].length;
+    }
+
+    public int getTab(int i, int j) {
+        return tab[i][j];
     }
 }
 
