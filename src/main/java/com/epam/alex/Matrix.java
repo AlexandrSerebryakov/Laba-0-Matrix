@@ -34,7 +34,7 @@ public class Matrix {
         return data[0].length;
     }
 
-    public int getValue (int i, int j){
+    int getValue(int i, int j){
         return data[i][j];
     }
 

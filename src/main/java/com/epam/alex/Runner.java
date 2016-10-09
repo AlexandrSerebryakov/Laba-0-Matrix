@@ -9,11 +9,8 @@ public class Runner {
         Matrix matrix1 = new Matrix(3, 3);
         Matrix matrix2 = new Matrix(3, 3);
 
-
-
         matrix1.fillRandom(50);
         matrix2.fillRandom(50);
-
 
         Matrix matrix3 = MatrixMultiplication.multiply(matrix1, matrix2);
 
