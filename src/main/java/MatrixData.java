@@ -16,7 +16,7 @@ public class MatrixData{
 
     }
 
-    public void  fillRandom(int range){
+    public void  fillRandom(){
 
         for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
