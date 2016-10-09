@@ -7,7 +7,7 @@ public class OutputMatrix {
     private MatrixData m3;
 
     public void print(){
-        //MatrixData matrix1 = Runner.main().matrix1;
+
         System.out.println(m1);
         System.out.println(m2);
         System.out.println(m3);
