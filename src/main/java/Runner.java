@@ -13,7 +13,7 @@ public class Runner {
         CounterMatrix.multiplyMatrix(matrix1, matrix2);
 
         OutputMatrix outputMatrix = new OutputMatrix();
-        outputMatrix.print();
+        outputMatrix.print(matrix1);
 
 
     }
