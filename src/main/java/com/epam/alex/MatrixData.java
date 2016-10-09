@@ -14,11 +14,11 @@ public class MatrixData{
     public MatrixData(int row, int col) {
         this.row = row;
         this.col = col;
-        fillRandom(row, col);
+        //fillRandom(row, col);
 
     }
 
-    public void  fillRandom(int range, int col){
+    public void  fillRandom(int range){
 
         for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
