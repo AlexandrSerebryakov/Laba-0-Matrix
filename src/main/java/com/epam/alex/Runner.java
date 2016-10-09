@@ -6,17 +6,18 @@ package com.epam.alex;
 public class Runner {
     public static void main(String[] args) {
 
-        Matrix matrix1 = new Matrix(4, 4); //
-        Matrix matrix2 = new Matrix(4, 4); //
+        Matrix matrix1 = new Matrix(4, 4);
+        Matrix matrix2 = new Matrix(4, 4);
 
-        matrix1.fillRandom(5, 10);
-        matrix2.fillRandom(5, 10);
+        matrix1.fillRandom(50);
+        matrix2.fillRandom(50);
 
 
-        MatrixMultiplication.multiplyMatrix(matrix1, matrix2);
+        Matrix matrix3 = MatrixMultiplication.multiply(matrix1, matrix2);
 
         System.out.println(matrix1);
         System.out.println(matrix2);
+        System.out.println(matrix3);
 
 
 
