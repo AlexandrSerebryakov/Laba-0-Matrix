@@ -16,6 +16,8 @@ public class Matrix {
 
     }
 
+
+
     public void fillRandom(int range){
          //matrix = new int[m][n];
         for (int i = 0; i < getRow(); i++){
@@ -34,7 +36,7 @@ public class Matrix {
         return data[0].length;
     }
 
-    int getValue(int i, int j){
+    public int getValue (int i, int j){
         return data[i][j];
     }
 
