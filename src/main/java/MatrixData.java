@@ -14,13 +14,14 @@ public class MatrixData{
 
     }
 
-    public void fillRandom(int m, int n){
+    public MatrixData fillRandom(int m, int n){
         tab = new int[m][n];
         for (int i = 0; i < m; i++){
            for (int j = 0; j < n; j++){
                tab[i][j]=(int) Math.random();
            }
         }
+        return null;
     }
 
     public int getRow() {
