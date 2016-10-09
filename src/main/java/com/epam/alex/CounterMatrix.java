@@ -7,7 +7,7 @@ public class CounterMatrix {
     private MatrixData matrix1;
     private MatrixData matrix2;
 
-    public  static MatrixData multiplyMatrix(MatrixData matrix1, MatrixData matrix2) {
+    public   MatrixData multiplyMatrix(MatrixData matrix1, MatrixData matrix2) {
         int row3 = matrix1.getRow();
         int col3 = matrix2.getCol();
         int col1row2 = matrix1.getCol();
