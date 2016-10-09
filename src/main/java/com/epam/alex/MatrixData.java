@@ -1,7 +1,5 @@
 package com.epam.alex;
 
-import java.util.Random;
-
 /**
  * Created by user on 07.10.2016.
  */
@@ -9,7 +7,7 @@ import java.util.Random;
 public class MatrixData{
     private int row;
     private int col;
-    private int [][]tab;
+    private int tab[][];
 
     public MatrixData(int row, int col) {
         this.row = row;
@@ -18,12 +16,12 @@ public class MatrixData{
 
     }
 
-    public void  fillRandom(int range){
+    public void  fillRandom(int m, int n){
+         tab = new int[m][n];
+        for (int i = 0; i < m; i++){
+           for (int j = 0; j < n; j++){
 
-        for (int i = 0; i < getRow(); i++){
-           for (int j = 0; j < getCol(); j++){
-
-               tab[i][j]=new Random().nextInt(range);
+               tab[i][j]=(int) Math.random();
            }
         }
 
