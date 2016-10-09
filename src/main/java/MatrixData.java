@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
  * Created by user on 07.10.2016.
  */
@@ -10,18 +12,18 @@ public class MatrixData{
     public MatrixData(int row, int col) {
         this.row = row;
         this.col = col;
-        fillRandom(row, col);
+        //fillRandom(row, col);
 
     }
 
-    public MatrixData fillRandom(int m, int n){
-        tab = new int[m][n];
-        for (int i = 0; i < m; i++){
-           for (int j = 0; j < n; j++){
-               tab[i][j]=(int) Math.random();
+    public void  fillRandom(int range){
+
+        for (int i = 0; i < getRow(); i++){
+           for (int j = 0; j < getCol(); j++){
+               tab[i][j]=new Random().nextInt(range);
            }
         }
-        return null;
+
     }
 
     public int getRow() {
