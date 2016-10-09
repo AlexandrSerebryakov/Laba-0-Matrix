@@ -37,9 +37,9 @@ public class Matrix {
         return matrix[0].length;
     }
 
-    //public int getData (int i, int j){
-    //    return matrix[i][j];
-    //}
+    public int getMatrix (int i, int j){
+        return matrix[i][j];
+    }
     //public int setData (int i, int j, int data){
     //    return tab[i][j] = data;
     //}
