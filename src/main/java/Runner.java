@@ -6,8 +6,8 @@ public class Runner {
        MatrixData matrix1 = new MatrixData(2, 2);
         MatrixData matrix2 = new MatrixData(2, 2);
 
-        matrix1.fillRandom();
-        matrix2.fillRandom();
+        matrix1.fillRandom(10);
+        matrix2.fillRandom(10);
 
 
         CounterMatrix.multiplyMatrix(matrix1, matrix2);
