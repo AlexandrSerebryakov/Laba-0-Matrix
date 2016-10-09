@@ -6,9 +6,7 @@ package com.epam.alex;
 public class Runner {
     public static void main(String[] args) {
 
-
-
-       MatrixData matrix1 = new MatrixData(2, 2);
+        MatrixData matrix1 = new MatrixData(2, 2);
         MatrixData matrix2 = new MatrixData(2, 2);
 
         matrix1.fillRandom(10);

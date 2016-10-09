@@ -9,12 +9,12 @@ import java.util.Random;
 public class MatrixData{
     private int row;
     private int col;
-    private int tab[][];
+    private int [][]tab;
 
     public MatrixData(int row, int col) {
         this.row = row;
         this.col = col;
-        //fillRandom(row, col);
+        //fillRandom(range);
 
     }
 
