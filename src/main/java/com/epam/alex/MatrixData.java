@@ -1,3 +1,5 @@
+package com.epam.alex;
+
 import java.util.Random;
 
 /**
