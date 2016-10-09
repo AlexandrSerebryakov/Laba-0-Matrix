@@ -7,19 +7,16 @@ import java.util.Random;
  */
 
 public class Matrix {
-    private int row;
-    private int col;
+
     private int data[][];
 
     public Matrix(int row, int col) {
-        //this.row = row;
-        //this.col = col;
-        //fillRandom(row, col);
+
         this.data = new int[row][col];
 
     }
 
-    public void  fillRandom(int range){
+    public void fillRandom(int range){
          //matrix = new int[m][n];
         for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
@@ -27,7 +24,6 @@ public class Matrix {
               data[i][j]=new Random().nextInt(range);
            }
         }
-
     }
 
     public int getRow() {
@@ -41,9 +37,7 @@ public class Matrix {
     public int getValue (int i, int j){
         return data[i][j];
     }
-    //public int setData (int i, int j, int data){
-    //    return tab[i][j] = data;
-    //}
+
 }
 
 
