@@ -6,11 +6,11 @@ package com.epam.alex;
 public class Runner {
     public static void main(String[] args) {
 
-        MatrixData matrix1 = new MatrixData(2, 2);
-        MatrixData matrix2 = new MatrixData(2, 2);
+        MatrixCreateFill matrix1 = new MatrixCreateFill(3, 3); //
+        MatrixCreateFill matrix2 = new MatrixCreateFill(3, 3); //
 
         matrix1.fillRandom(5, 10);
-        matrix2.fillRandom(5, 15);
+        matrix2.fillRandom(5, 10);
 
 
         CounterMatrix.multiplyMatrix(matrix1, matrix2);

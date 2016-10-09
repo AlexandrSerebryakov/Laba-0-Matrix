@@ -4,15 +4,15 @@ package com.epam.alex;
  * Created by user on 07.10.2016.
  */
 
-public class MatrixData{
-    private int row;
-    private int col;
-    private int tab[][];
+public class MatrixCreateFill { //
+    private int row;            //
+    private int col;            //
+    private int matrix[][];     //
 
-    public MatrixData(int row, int col) {
+    public MatrixCreateFill(int row, int col) {
         this.row = row;
         this.col = col;
-        //fillRandom(range);
+        fillRandom(row, col);
 
     }
 
@@ -21,7 +21,7 @@ public class MatrixData{
         for (int i = 0; i < m; i++){
            for (int j = 0; j < n; j++){
 
-               tab[i][j]=(int) Math.random();
+               tab[i][j]=(int) (Math.random()*5);
            }
         }
 
@@ -38,12 +38,13 @@ public class MatrixData{
     public int getTab(int i, int j) {
         return tab[i][j];
     }
-    public int setData (int i, int j, int data){
-        return tab[i][j] = data;
-    }
+
     public int getData (int i, int j){
         return tab[i][j];
     }
+    //public int setData (int i, int j, int data){
+    //    return tab[i][j] = data;
+    //}
 }
 
 
