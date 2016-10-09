@@ -2,7 +2,7 @@
  * Created by user on 07.10.2016.
  */
 public class Runner {
-    public static void main(String[] args) {
+    public static void main() {
        MatrixData matrix1 = new MatrixData(2, 2);
         MatrixData matrix2 = new MatrixData(2, 2);
 
