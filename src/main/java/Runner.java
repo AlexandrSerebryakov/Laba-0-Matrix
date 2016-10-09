@@ -12,8 +12,9 @@ public class Runner {
 
         CounterMatrix.multiplyMatrix(matrix1, matrix2);
 
-        OutputMatrix outputMatrix = new OutputMatrix();
-        outputMatrix.print(matrix1);
+        System.out.println(matrix1);
+        System.out.println(matrix2);
+
 
 
     }
