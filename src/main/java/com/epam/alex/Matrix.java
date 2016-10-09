@@ -4,12 +4,12 @@ package com.epam.alex;
  * Created by user on 07.10.2016.
  */
 
-public class MatrixFill {
+public class Matrix {
     private int row;
     private int col;
     private int matrix[][];
 
-    public MatrixFill(int row, int col) {
+    public Matrix(int row, int col) {
         this.row = row;
         this.col = col;
         fillRandom(row, col);
