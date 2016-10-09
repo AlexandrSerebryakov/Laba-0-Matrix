@@ -4,15 +4,15 @@ package com.epam.alex;
  * Created by user on 07.10.2016.
  */
 public class CounterMatrix {
-    private MatrixCreateFill matrix1;
-    private MatrixCreateFill matrix2;
+    private MatrixFill matrix1;
+    private MatrixFill matrix2;
 
-    public  static MatrixCreateFill multiplyMatrix(MatrixCreateFill matrix1, MatrixCreateFill matrix2) {
+    public  static MatrixFill multiplyMatrix(MatrixFill matrix1, MatrixFill matrix2) {
         int row3 = matrix1.getRow();
         int col3 = matrix2.getCol();
         int col1row2 = matrix1.getCol();
 
-        MatrixCreateFill result = new MatrixCreateFill(row3, col3);
+        MatrixFill result = new MatrixFill(row3, col3);
 
         for (int i = 0; i < row3; i++) {
             for (int j = 0; j < col3; j++) {
