@@ -13,10 +13,10 @@ public class Runner {
         matrix2.fillRandom(10);
 
 
-        //CounterMatrix.multiplyMatrix(matrix1, matrix2);
+        CounterMatrix.multiplyMatrix(matrix1, matrix2);
 
-        //System.out.println(matrix1.fillRandom(10));
-        //System.out.println(matrix2);
+        System.out.println(matrix1);
+        System.out.println(matrix2);
 
 
 
