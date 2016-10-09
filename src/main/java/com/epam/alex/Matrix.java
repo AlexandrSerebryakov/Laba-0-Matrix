@@ -9,12 +9,13 @@ import java.util.Random;
 public class Matrix {
     private int row;
     private int col;
-    private int matrix[][];
+    private int data[][];
 
     public Matrix(int row, int col) {
-        this.row = row;
-        this.col = col;
+        //this.row = row;
+        //this.col = col;
         //fillRandom(row, col);
+        this.data = new int[row][col];
 
     }
 
@@ -23,22 +24,22 @@ public class Matrix {
         for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
 
-               matrix[i][j]=new Random().nextInt(range);
+              data[i][j]=new Random().nextInt(range);
            }
         }
 
     }
 
     public int getRow() {
-        return matrix.length;
+        return data.length;
     }
 
     public int getCol() {
-        return matrix[0].length;
+        return data[0].length;
     }
 
-    public int getMatrix (int i, int j){
-        return matrix[i][j];
+    public int getValue (int i, int j){
+        return data[i][j];
     }
     //public int setData (int i, int j, int data){
     //    return tab[i][j] = data;

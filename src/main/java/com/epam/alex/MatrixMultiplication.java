@@ -18,10 +18,10 @@ public class MatrixMultiplication {
             for (int j = 0; j < matrix2.getCol(); j++) {
                 //int data = 0;
                 for (int k = 0; k < matrix1.getCol(); k++)
-                    matrix3[i][j] += matrix1.getMatrix(i, k) * matrix2.getMatrix(k, j);
+                    matrix3[i][j] += matrix1.getValue(i, k) * matrix2.getValue(k, j);
             }
         }
-        return    matrix3;
+        return  matrix3;
     }
 
 }
