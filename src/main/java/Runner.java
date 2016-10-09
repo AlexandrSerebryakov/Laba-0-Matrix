@@ -9,6 +9,8 @@ public class Runner {
         matrix1.fillRandom(2, 2);
         matrix2.fillRandom(2, 2);
 
-        matrix3 = CounterMatrix.multiplyMatrix(matrix1, matrix2);
+        CounterMatrix.multiplyMatrix(matrix1, matrix2);
+
+        //LiveConnectSupport.resultAvailable() = CounterMatrix.multiplyMatrix(matrix1, matrix2);
     }
 }
