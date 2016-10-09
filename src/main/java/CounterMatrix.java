@@ -13,7 +13,7 @@ public class CounterMatrix {
             for (int j = 0; j < col3; j++) {
                 int data = 0;
                 for (int k = 0; k < col1row2; k++) {
-                   data +=
+                   data += matrix1.getData(i, k)*matrix2.getData(k, j);
                 }
             }
         }
