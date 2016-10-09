@@ -7,8 +7,9 @@ public class OutputMatrix {
     //private MatrixData m3;
 
     public void print(){
-        System.out.println(Runner.main().m1);
-        System.out.println(m2);
-        System.out.println(m3);
+        //MatrixData matrix1 = Runner.main().matrix1;
+        System.out.println(matrix1);
+        System.out.println(matrix2);
+        System.out.println(matrix3);
     }
 }
