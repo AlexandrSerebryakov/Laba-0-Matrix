@@ -16,10 +16,11 @@ public class MatrixData{
 
     }
 
-    public void  fillRandom(){
+    public void  fillRandom(int range){
 
         for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
+
                tab[i][j]=new Random().nextInt(range);
            }
         }
