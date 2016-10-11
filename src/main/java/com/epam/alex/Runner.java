@@ -19,6 +19,7 @@ public class Runner {
         System.out.println(matrix3);
 
         Printer.print(matrix1);
+        Printer.print(matrix2);
 
 
 
