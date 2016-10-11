@@ -14,10 +14,6 @@ public class Runner {
 
         int matrix3[][] = MatrixMultiplication.multiply(matrix1, matrix2);
 
-        System.out.println(matrix1);
-        System.out.println(matrix2);
-        System.out.println(matrix3);
-
         Printer.print(matrix1);
         Printer.print(matrix2);
 
