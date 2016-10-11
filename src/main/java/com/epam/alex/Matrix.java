@@ -39,6 +39,14 @@ public class Matrix {
         return data[i][j];
     }
 
+    public void setRow(int i, int j, int value) {data[i][j]=value;
+    }
+
+    //public void setValue (int i, int j, int data){
+       //int data[][] ;
+    //}
+
+
 }
 
 
