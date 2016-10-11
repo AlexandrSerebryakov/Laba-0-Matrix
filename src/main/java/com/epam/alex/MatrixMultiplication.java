@@ -9,7 +9,7 @@ public class MatrixMultiplication {
 
     public    static Matrix multiply(Matrix matrix1, Matrix matrix2) {
 
-        int[][] matrix3 = new int[matrix1.getRow()][matrix2.getCol()];
+        int matrix3[][] = new int[matrix1.getRow()][matrix2.getCol()];
         for (int i = 0; i < matrix1.getRow(); i++) {
             for (int j = 0; j < matrix2.getCol(); j++) {
 
