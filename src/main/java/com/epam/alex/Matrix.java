@@ -19,8 +19,7 @@ public class Matrix {
 
 
     public void fillRandom(int range){
-         //matrix = new int[m][n];
-        for (int i = 0; i < getRow(); i++){
+         for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
 
               data[i][j]=new Random().nextInt(range);
