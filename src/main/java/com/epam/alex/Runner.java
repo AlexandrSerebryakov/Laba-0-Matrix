@@ -16,6 +16,7 @@ public class Runner {
 
         Printer.print(matrix1);
         Printer.print(matrix2);
+        Printer.print(matrix3);
 
 
 

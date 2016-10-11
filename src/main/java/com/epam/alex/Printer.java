@@ -5,21 +5,26 @@ package com.epam.alex;
  */
 public class Printer {
     public static void print(Matrix matrix) {
-        //int i1;
-        //int j1;
+
         int a = matrix.getRow();
         int b = matrix.getCol();
-        //int c = matrix.getValue(int i,int j);
         for (int i = 0; i < a; i++,System.out.println()) {
             for (int j = 0; j < b; j++) {
                 System.out.println(matrix.getValue(i,j));
             }
         }
 
-        //int a = getRow();
-        //}
 
-        //StringBuilder stringBuilder = new StringBuilder(Matrix m, int b);
     }
+    public static void print2(Matrix matrix) {
+        int a = matrix.getRow();
+        int b = matrix.getCol();
+        for (int i = 0; i < a; i++,System.out.println()) {
+            for (int j = 0; j < b; j++) {
+                System.out.println(matrix.getValue(i,j));
+            }
+        }
+
+        }
 }
 
