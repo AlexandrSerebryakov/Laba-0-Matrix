@@ -29,6 +29,8 @@ public class Matrix {
 
     /**
      * Fill Matrix array with random numbers
+     *
+     * @param bound the size of symmetric array
      */
 
     public void fillRandom(int bound){
