@@ -5,7 +5,7 @@ package com.epam.alex;
  */
 
 /**
- * Multiply matrixA & matrixB
+ * Multiplication of matrixA & matrixB
  */
 
 public class MatrixMultiplier {
