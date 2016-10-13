@@ -3,6 +3,11 @@ package com.epam.alex;
 /**
  * Created by Alexandr Serebryakov on 07.10.2016.
  */
+
+/**
+ * Multiply matrixA & matrixB
+ */
+
 public class MatrixMultiplier {
 
 
