@@ -6,6 +6,10 @@ import java.util.Random;
  * Created by Alexandr Serebryakov on 07.10.2016.
  */
 
+/**
+ * Create matrix
+ */
+
 public class Matrix {
 
     private int data[][];
