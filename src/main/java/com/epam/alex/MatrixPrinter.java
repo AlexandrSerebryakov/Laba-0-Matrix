@@ -3,6 +3,11 @@ package com.epam.alex;
 /**
  * Created by Alexandr Serebryakov on 12.10.2016.
  */
+
+/**
+ * Print matrixA, matrixB, result to console
+ */
+
 public class MatrixPrinter {
     public static void printMatrixAB(Matrix matrix) {
 
