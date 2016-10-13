@@ -27,7 +27,9 @@ public class Matrix {
 
     }
 
-
+    /**
+     * Fill Matrix array with random numbers
+     */
 
     public void fillRandom(int bound){
          for (int i = 0; i < getRow(); i++){
