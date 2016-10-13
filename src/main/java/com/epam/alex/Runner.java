@@ -3,6 +3,11 @@ package com.epam.alex;
 /**
  * Created by Alexandr Serebryakov on 07.10.2016.
  */
+
+/**
+ * Main class
+ */
+
 public class Runner {
     public static void main(String[] args) {
 
