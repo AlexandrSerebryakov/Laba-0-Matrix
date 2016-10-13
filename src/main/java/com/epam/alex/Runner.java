@@ -12,7 +12,7 @@ public class Runner {
         matrixA.fillRandom(50);
         matrixB.fillRandom(50);
 
-        int result[][] = MatrixMultiplicator.multiply(matrixA, matrixB);
+        int result[][] = MatrixMultiplier.multiply(matrixA, matrixB);
 
         Printer.print(matrixA);
         Printer.print(matrixB);
