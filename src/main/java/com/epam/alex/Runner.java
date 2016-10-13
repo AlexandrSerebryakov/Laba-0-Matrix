@@ -12,11 +12,11 @@ public class Runner {
         matrixA.fillRandom(50);
         matrixB.fillRandom(50);
 
-        int matrix3[][] = MatrixMultiplication.multiply(matrixA, matrixB);
+        int result[][] = MatrixMultiplication.multiply(matrixA, matrixB);
 
         Printer.print(matrixA);
         Printer.print(matrixB);
-        Printer.print2(matrix3, matrixA, matrixB);
+        Printer.print2(result, matrixA, matrixB);
 
 
 
