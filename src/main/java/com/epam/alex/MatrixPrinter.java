@@ -16,7 +16,7 @@ public class MatrixPrinter {
 
 
     }
-    public static void print2(int matrix[][], Matrix matrixA, Matrix matrixB) {
+    public static void printResult (int matrix[][], Matrix matrixA, Matrix matrixB) {
         int c = matrixA.getRow();
         int d = matrixB.getCol();
         for (int i = 0; i < c; i++,System.out.println()) {

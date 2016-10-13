@@ -16,7 +16,7 @@ public class Runner {
 
         MatrixPrinter.print(matrixA);
         MatrixPrinter.print(matrixB);
-        MatrixPrinter.print2(result, matrixA, matrixB);
+        MatrixPrinter.printResult(result, matrixA, matrixB);
 
 
 
