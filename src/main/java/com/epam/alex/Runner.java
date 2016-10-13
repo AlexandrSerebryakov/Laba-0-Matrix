@@ -14,8 +14,8 @@ public class Runner {
 
         int result[][] = MatrixMultiplier.multiply(matrixA, matrixB);
 
-        MatrixPrinter.print(matrixA);
-        MatrixPrinter.print(matrixB);
+        MatrixPrinter.printMatrixAB(matrixA);
+        MatrixPrinter.printMatrixAB(matrixB);
         MatrixPrinter.printResult(result, matrixA, matrixB);
 
 

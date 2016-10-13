@@ -4,7 +4,7 @@ package com.epam.alex;
  * Created by user on 12.10.2016.
  */
 public class MatrixPrinter {
-    public static void print(Matrix matrix) {
+    public static void printMatrixAB(Matrix matrix) {
 
         int a = matrix.getRow();
         int b = matrix.getCol();
