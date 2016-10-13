@@ -18,11 +18,11 @@ public class Matrix {
 
 
 
-    public void fillRandom(int range){
+    public void fillRandom(int bound){
          for (int i = 0; i < getRow(); i++){
            for (int j = 0; j < getCol(); j++){
 
-              data[i][j]=new Random().nextInt(range);
+              data[i][j]=new Random().nextInt(bound);
            }
         }
     }
