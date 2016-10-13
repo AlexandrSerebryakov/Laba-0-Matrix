@@ -5,7 +5,10 @@ package com.epam.alex;
  */
 
 /**
- * Main class
+ * This program demonstrates multiplication of two matrices.
+ *
+ * @author Alexandr Serebryakov
+ * @version 1.0 2016-10-07
  */
 
 public class Runner {
