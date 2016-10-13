@@ -10,7 +10,11 @@ package com.epam.alex;
 
 public class MatrixMultiplier {
 
-
+    /**
+     * @param matrixA first matrix
+     * @param matrixB second matrix
+     * @return result of multiplication
+     */
 
     public   static int[][] multiply(Matrix matrixA, Matrix matrixB) {
 
