@@ -14,6 +14,13 @@ public class Matrix {
 
     private int data[][];
 
+    /**
+     * Construct new array.
+     *
+     * @param row row of array
+     * @param col columns of array
+     */
+
     public Matrix(int row, int col) {
 
         this.data = new int[row][col];
