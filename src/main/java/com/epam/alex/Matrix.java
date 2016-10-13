@@ -3,7 +3,7 @@ package com.epam.alex;
 import java.util.Random;
 
 /**
- * Created by user on 07.10.2016.
+ * Created by Alexandr Serebryakov on 07.10.2016.
  */
 
 public class Matrix {
