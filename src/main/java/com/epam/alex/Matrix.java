@@ -46,6 +46,14 @@ public class Matrix {
         return data[0].length;
     }
 
+    /**
+     * Getter array element by indexes
+     *
+     * @param i index of rows of array
+     * @param j index columns of array
+     * @return element of array
+     */
+
     public int getValue (int i, int j){
         return data[i][j];
     }
